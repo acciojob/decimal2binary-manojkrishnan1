@@ -1,7 +1,10 @@
 function decimalToBinary(num) {
   // Write your code here
-	let result = Number(num).toString(2);
-	return Number(result);
+	let input = prompt('Enter a number');
+	input = Number(input);
+	let result = input.toString(2);
+	result = Number(result);
+	return result;
 }
 
 window.decimalToBinary = decimalToBinary;
